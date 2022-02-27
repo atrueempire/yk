@@ -14,4 +14,9 @@ p {
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  
+@media (prefers-color-scheme: dark) {
+  html { filter: invert(100%); }
+  img { filter: invert(100%); }
+}
 }
